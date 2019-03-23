@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+  margin: 0;
 }
 
 * {
@@ -180,6 +181,7 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  list-style: none;
 }
 
 #contact-form li {
@@ -220,8 +222,14 @@ input[type=submit] {
   .main-section {
     width: 700px;
     height: 100%;
+   
   }  
-
+  #main-container {
+    width: 600px;
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 500px;
+  }
   /* how do i make more space in the bottom of the page? */
 
   nav {
@@ -235,12 +243,15 @@ input[type=submit] {
   .main-section {
     width: 100%;
     height: 100%;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+   
 
   }
 
   .auth-image {
     max-width: 100%;
-    width: 100%
+    width: 300px;
   }
 
   nav {
@@ -264,18 +275,22 @@ input[type=submit] {
    }
 
    nav {
-
-
-     /* position: center; */
-     /* text-align: center;      */
+     width: 100%;
+     margin: 15px 0;
+     text-align: center;     
 
   }
   .main-section {
     width: 100%;
     height: 50%;
     margin-top: 50px;
-
+    margin-right: 100px;
     /* portfolio page needs adjustment */
+
+  }
+
+  .work {
+    width: 100%;
 
   }
 
